@@ -1,0 +1,7 @@
+.board {
+  height: 100vh;
+  width: 100%;
+  background-color: #eaedf6;
+  overflow-x: scroll !important;
+  z-index: 0 !important;
+}

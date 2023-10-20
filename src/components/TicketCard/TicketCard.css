@@ -1,0 +1,121 @@
+/* TicketCard.css */
+
+.ticket-cards {
+  background-color: #eaedf6;
+  display: flex;
+  gap: 48px;
+  padding-left: 40px;
+  margin-top: 70px;
+}
+
+.user-ticket-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.name-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-wrapper img {
+  width: 20px;
+  height: 20px;
+  padding-right: 4px;
+}
+.user-ticket-user-name {
+  width: 304px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-status-left-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.ticket-status-icon {
+  opacity: 0.4;
+  width: 24px;
+  height: 24px;
+}
+
+.ticket-status-right-icon {
+  opacity: 0.6;
+  width: 24px;
+  height: 24px;
+}
+
+.user-ticket-card {
+  background-color: white;
+  width: 300px;
+  height: 70px;
+  padding: 12px;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid rgba(195, 195, 195, 0.538);
+  border-radius: 6px;
+  padding-bottom: 20px;
+}
+
+.user-ticket-id-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-ticket-id {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0px !important;
+  opacity: 0.7;
+}
+
+.user-ticket-title {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.9;
+  margin: 0px !important;
+}
+
+.user-ticket-status {
+  font-size: 10px;
+  margin: 0px !important;
+  opacity: 0.7;
+}
+
+.user-ticket-tag-wrapper {
+  margin-top: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+
+.ticket-tag-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  border: 0.5px solid rgba(195, 195, 195, 0.244);
+  border-radius: 3px;
+  width: 100px;
+}
+
+.ticket-icon {
+  opacity: 0.4;
+}
+
+.ticket-dashed-icon {
+  padding: 3px;
+  border: 0.5px solid rgba(195, 195, 195, 0.244);
+  border-radius: 3px;
+  opacity: 0.7;
+}
